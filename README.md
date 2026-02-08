@@ -6,7 +6,7 @@ This pipeline relies on several external tools. Please install/download them fir
 - Website: https://foldxsuite.crg.eu/
 - Download/License: https://foldxsuite.crg.eu/academic-license-info
 
-### DSSP / mkdssp
+### dssp
 - DSSP (mkdssp) source and documentation: https://github.com/PDB-REDO/dssp
 - Note: On some systems the executable may be named `mkdssp` instead of `dssp`.
 
