@@ -6,7 +6,7 @@ This pipeline relies on several external tools. Please install/download them fir
 - Website: https://foldxsuite.crg.eu/
 - Download/License: https://foldxsuite.crg.eu/academic-license-info
 
-### dssp
+### DSSP / mkdssp
 - DSSP (mkdssp) source and documentation: https://github.com/PDB-REDO/dssp
 - Note: On some systems the executable may be named `mkdssp` instead of `dssp`.
 
@@ -61,3 +61,9 @@ Replace the arguments with your own inputs:
 - `-CHAIN`: chain ID (e.g., `A`)
 - `-Mut`: mutation in the format `WT<pos>MUT` (e.g., `E21K`)
 - `--model_json`: path to the trained XGBoost model file
+
+## Notes / Tips
+
+1. The input PDB file is recommended to be a **protein–RNA dimer complex structure** (i.e., the mutated protein chain and the RNA chain are both present in the same PDB file) to reduce potential issues during feature extraction.
+2. Because the pipeline integrates **AlphaFold3**, prediction may take a noticeable amount of time.  
+   For example, on a machine with **8 GB GPU memory (RTX 4060)**, a single prediction typically takes **~20 minutes on average**.
