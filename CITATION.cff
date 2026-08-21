@@ -1,0 +1,14 @@
+cff-version: 1.2.0
+title: "Physics informed machine learning predicts mutation-induced binding free energy changes in protein-RNA complexes"
+message: "If you use this software, please cite it using the metadata from this file."
+type: software
+authors:
+  - family-names: "Peng"
+    given-names: "Yunhui"
+  - family-names: "Zhao"
+    given-names: "Yunjie"
+  - name: "CCNU-COMPBIO"
+repository-code: "https://github.com/CCNU-COMPBIO/Pred-MutPRI"
+license: "MIT"
+version: "1.0.0"
+date-released: "2026-08-20"
