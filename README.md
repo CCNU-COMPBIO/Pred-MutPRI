@@ -67,3 +67,4 @@ Replace the arguments with your own inputs:
 1. The input PDB file is recommended to be a **protein–RNA dimer complex structure** (i.e., the mutated protein chain and the RNA chain are both present in the same PDB file) to reduce potential issues during feature extraction.
 2. Because the pipeline integrates **AlphaFold3**, prediction may take a noticeable amount of time.  
    For example, on a machine with **8 GB GPU memory (RTX 4060)**, a single prediction typically takes **~20 minutes on average**.
+3. Software environment: Please use the software versions and runtime environment specified in this repository whenever possible. Differences in operating systems or versions of external dependencies (e.g., FoldX, Cytoscape/py4cytoscape,      DSSP, ProtInter, AlphaFold3, and related Python packages) may lead to slight variations in intermediate features and final predictions.
